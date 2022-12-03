@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Merienda', cursive;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header__box a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color: chocolate;
+}
+.header__box{
+    display: flex;
+    color: white;
+    padding-top: 30px;
+    position: absolute;
+}
+.nav{
+    display: flex;
+    align-items: flex-end;
+    column-gap: 40px;
+    font-size: 12px;
+}
+.sec1{
+    text-align: center;
+    background: url("image/desk-791178_1920 (2).png") center/cover no-repeat;
+    color: white;
+    padding-top: 181px;
+    padding-bottom: 181px;
+}
+.sec1 h1{
+    font-size: 40px;
+}
+.sec1 img{
+    margin: 20px 0 35px;
+}
+.sec1 p{
+  font-size: 24px;
+    padding-bottom: 22px;
+}
+.sec1 button{
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.sec2{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 101px;
+}
+.sec2 h2{
+    font-size: 24px;
+}
+.sec2 img{
+    padding: 21px 0 41px;
+}
+.sec2 p{
+    width: 50%;
+}
+.p__text{
+
+    display: flex;
+    justify-content: center;
+}
+.sec3{
+    background: url("image/paper-1074131_1920.png") center/cover no-repeat;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 110px;
+    font-weight: 400;
+}
+.sec3 h2{
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+.card__box{
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    background: #ffffff65;
+    padding: 20px 25px;
+    width: 230px;
+    border-radius: 8px;
+
+}
+.cards img{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+.cards p{
+    font-size: 14px;
+    margin: 14px 0 10px;
+}
+.cards h4{
+    text-align: right;
+}
+.footer__top{
+   display: flex;
+   justify-content: center;
+    margin: 40px 0 30px;
+}
+.footer__top ul{
+    display: flex;
+    align-items: flex-end;
+    column-gap: 40px;
+    list-style: none;
+    font-size: 12px;
+}
+.footer__bottom{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 21px;
+}
+.footer__top a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: chocolate;
+    cursor: pointer;
+}
+.form{
+    display: none;
+}
+.form.active{
+    display: block;
+}
+.btnText{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
